@@ -1,6 +1,6 @@
 import google.generativeai as genai  # pyright: ignore[reportMissingImports]
 
-genai.configure(api_key="AIzaSyBlWtabK2iZ1twu7N5LmQyjEZCBTK8OVMI")
+genai.configure(api_key="YOUR_GEMINI_TOKEN")
 
 def generate_blog(paragraph_topic):
     model = genai.GenerativeModel('gemini-2.5-flash')
